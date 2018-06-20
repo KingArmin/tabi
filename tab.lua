@@ -22,7 +22,7 @@ end
 end
 end
 ---------------------
-local telegram = 777000 --دست نزنید به این قسمت
+local telegram = 777000
 ----------------------
 function is_pouya(msg)
 local var = false
