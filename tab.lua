@@ -1,10 +1,7 @@
---[[
-STAGS COME BACK
-@Stags-@CaltMan
-]]
+
 serpent = (loadfile "libs/serpent.lua")()
 redis = (loadfile "libs/redis.lua")()
-local sudos = {123456789}
+local sudos = {276969788}
 function get_bot()
 	function bot_info (i, jove)
 		redis:set("BOT-IDbotid", jove.id)
@@ -1551,4 +1548,3 @@ if data.message.content._ == "messageText" then
 			return false
 		 end 
 end
---Writeen by : @CaltMan
