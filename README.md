@@ -12,38 +12,38 @@
 # Install
 
 ```sh
-git clone https://github.com/KingArmin/tabchi
-cd tabchi
-chmod +x bot
-./bot install
+git clone https://github.com/KingArmin/tabi
+cd tabi
+chmod +x tabi
+./tabi install
 
 ```
 * * *
 ## Create BOT
 ```
-./bot create
-./bot 1
+./tabi create
+./tabi 1
 
 ```
 ## Create More BOT
 
 ```sh
-cd tabchi
-./bot create
-./bot 2
+cd tabi
+./tabi create
+./tabi 2
 
 ```
 * * *
 ## AutoLaunch
 ```sh
-cd tabchi
+cd tabi
 sudo killall screen
 sudo killall tmux
 sudo killall tg
 sudo killall nohup
 sudo killall .telegram-cli
 sudo rm -rf /root/open/.telegram-cli
-sudo tmux new-session -s script "bash ./bot autolaunch -t"
+sudo tmux new-session -s script "bash ./tabi autolaunch -t"
 
 
 ```
