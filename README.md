@@ -50,3 +50,23 @@ sudo tmux new-session -s script "bash ./tabi autolaunch -t"
 ***
 
 
+* * *
+## Helper
+```sh
+
+./tabi install
+
+./tabi create
+
+./tabi login
+
+./tabi clear
+
+tmux new-session -s script "bash tabi autolaunch"
+
+./tabi auto
+
+
+```
+***
+
